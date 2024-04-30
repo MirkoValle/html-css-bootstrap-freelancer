@@ -119,31 +119,51 @@
 
         </section>
 
-
-
-
-
-        <div class="container-fluid py-4">
-            <div class="row">
-                <div class="col-8 mx-auto d-flex flex-column align-items-center">
-                    <h2>Contact me</h2>
-                    <hr>
-                </div>
+        <section id="contact" class="py-5">
+            <h2 class="text-center text-uppercase fw-bolder">Contact me</h2>
+            <div class="d-flex justify-content-center py-2">
+                <div id="line"></div>
+                <i class="fa-solid fa-star px-4 fs-4"></i>
+                <div id="line"></div>
             </div>
-            <div class="row">
-                <div class="col-8 mx-auto">
-                    <p>Name</p>
-                    <hr>
-                    <p>Email Address</p>
-                    <hr>
-                    <p>Phone Number</p>
-                    <hr>
-                    <p>Message</p>
-                    <hr>
-                    <button>Send</button>
-                </div>
+
+            <div id="form d-flex" class="d-flex justify-content-center">
+
+                <form class="w-75 px-5">
+                    <div class="form-floating">
+                        <input type="name" class="form-control" id="floatingName" placeholder="Name">
+                        <label for="floatingName">Name</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email Address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPhoneNumber" placeholder="PhoneNumber">
+                        <label for="floatingPhoneNumber">Phone Number</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 200px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary mt-3">Send</button>
+                    </div>
+
+
+                </form>
+
+
+
             </div>
-        </div>
+
+
+        </section>
+
+
+
+
 
         <div class="container-fluid mybg-light-blue text-white py-4">
             <div class="row mx-auto">

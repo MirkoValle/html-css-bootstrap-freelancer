@@ -32,14 +32,27 @@ main #line {
     border-radius: 100px;
 }
 
-main #portfolio #line {
+main #portfolio #line,
+main #contact #line {
     background-color: #2c3e50;
 }
 
-main #portfolio i {
+main #portfolio i,
+main #contact i {
     color: #2c3e50;
 }
 
 .mycontainer {
     width: 60%;
+}
+
+main .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+main #contact button {
+    background-color: #1abc9c;
+    border: none;
 }
