@@ -1,7 +1,8 @@
 /* !color */
 
-.bg-green {
+.mybg-light-green {
     background-color: #1abc9c;
+    color: white;
 }
 
 .bg-magenta {
@@ -34,4 +35,21 @@
 
 .bg-light-blue {
     background-color: #3a546d;
+}
+
+
+
+
+/* !main */
+
+main #jumbotron img {
+    width: 12rem;
+}
+
+main #jumbotron #line {
+    height: 3px;
+    width: 6.5rem;
+    background-color: white;
+    margin-top: .7rem;
+    border-radius: 100px;
 }
